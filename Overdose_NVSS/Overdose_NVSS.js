@@ -1,7 +1,7 @@
 // Function to draw the line graph
 async function drawLineGraph() {
     // Fetch the JSON data
-    const response = await fetch('Overdose_Deaths_US.Overdose_Deaths.json');
+    const response = await fetch('Overdose_Deaths_Data.Cleaned_Overdose_Data.json');
     const data = await response.json();
 
     // Count occurrences per year
