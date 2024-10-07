@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Overdose Deaths Line Graph</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            text-align: center;
-        }
-        .chart-container {
-            position: relative;
-            width: 80%;
-            margin: auto;
-        }
-        canvas {
-            border: 1px solid #ccc;
-        }
-    </style>
+    <title>US Overdose Deaths</title>
 </head>
 <body>
     <h1>US Overdose Deaths Data Points per Year</h1>
-    <div class="chart-container">
-        <canvas id="dataPointsCanvas" width="800" height="500"></canvas>
-    </div>
 
-    <!-- Link to the external JavaScript file -->
+    <p>Within the US there are a large number of Overdose deaths that occur due to the drug epidemic. Here on this website we are illustrating the gradual shift of Overdose deaths in the country.</p>
+    <label for="dropdown">Choose a Year:</label>
+    <select id="dropdown">
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+    </select>
+
+    <p id="selectedOption">You selected: None</p>
+    <!-- Link to our JavaScript file -->
     <script src="Overdose_NVSS.js"></script>
 </body>
 </html>
