@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.4.1.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="dd17dd95-6d4e-4d53-88ab-9613b083200f" data-root-id="p2757" style="display: contents;"></div>
+  
+    <script type="application/json" id="f15eef8d-b608-488b-af44-1cbfb5fb9c72">
+      {"f7d1e571-8174-46d4-bd14-c9c43eb78298":{"version":"3.4.1","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p2757","attributes":{"x_range":{"type":"object","name":"Range1d","id":"p2767","attributes":{"start":-0.5}},"y_range":{"type":"object","name":"DataRange1d","id":"p2759"},"x_scale":{"type":"object","name":"LinearScale","id":"p2768"},"y_scale":{"type":"object","name":"LinearScale","id":"p2769"},"title":{"type":"object","name":"Title","id":"p2760","attributes":{"text":"Percentage of Drug Use 2023"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p2792","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p2783","attributes":{"selected":{"type":"object","name":"Selection","id":"p2784","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p2785"},"data":{"type":"map","entries":[["index",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAA=="},"shape":[10],"dtype":"int32","order":"little"}],["Indicator",{"type":"ndarray","array":["Cocaine (T40.5)","Heroin (T40.1)","Methadone (T40.3)","Natural &amp; semi-synthetic opioids (T40.2)","Natural &amp; semi-synthetic opioids, incl. methadone (T40.2, T40.3)","Natural, semi-synthetic, &amp; synthetic opioids, incl. methadone (T40.2-T40.4)","Number of Drug Overdose Deaths","Opioids (T40.0-T40.4,T40.6)","Psychostimulants with abuse potential (T43.6)","Synthetic opioids, excl. methadone (T40.4)"],"shape":[10],"dtype":"object","order":"little"}],["value",{"type":"ndarray","array":{"type":"bytes","data":"AAAAALD4CkEAAAAAIKHkQAAAAACAbNlAAAAAAHD+9UAAAAAAQHf7QAAAAABGZCNBAAAAANzfKkEAAAAAlLsjQQAAAABE6xBBAAAAAOLpIUE="},"shape":[10],"dtype":"float64","order":"little"}],["angle",{"type":"ndarray","array":{"type":"bytes","data":"lfyRazdA2T9uWHvZOVCzP6pKzJBNzac/yxh6OEGXxD/FiJGGtLbJPyTsuFuWJ/I/OTmG4/go+T8IDnWVUnnyP7RxkArsrd8/WVnU3FXF8D8="},"shape":[10],"dtype":"float64","order":"little"}],["percentage",{"type":"ndarray","array":{"type":"bytes","data":"ZQH/NRMeGUCYI0vOHDbzP7koe90erec/pncTAWp7BEBBtN8b8JMJQOUGpGUKDzJA3UecG/QGOUAX4eobWGAyQDaSMLAWgx9AQ/rZ4aiuMEA="},"shape":[10],"dtype":"float64","order":"little"}],["color",{"type":"ndarray","array":["#3182bd","#6baed6","#9ecae1","#c6dbef","#e6550d","#fd8d3c","#fdae6b","#fdd0a2","#31a354","#74c476"],"shape":[10],"dtype":"object","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p2793","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p2794"}}},"glyph":{"type":"object","name":"Wedge","id":"p2789","attributes":{"x":{"type":"value","value":0},"y":{"type":"value","value":1},"radius":{"type":"value","value":0.4},"start_angle":{"type":"expr","expr":{"type":"object","name":"CumSum","id":"p2781","attributes":{"field":"angle","include_zero":true}}},"end_angle":{"type":"expr","expr":{"type":"object","name":"CumSum","id":"p2782","attributes":{"field":"angle"}}},"line_color":{"type":"value","value":"white"},"fill_color":{"type":"field","field":"color"}}},"nonselection_glyph":{"type":"object","name":"Wedge","id":"p2790","attributes":{"x":{"type":"value","value":0},"y":{"type":"value","value":1},"radius":{"type":"value","value":0.4},"start_angle":{"type":"expr","expr":{"id":"p2781"}},"end_angle":{"type":"expr","expr":{"id":"p2782"}},"line_color":{"type":"value","value":"white"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"field","field":"color"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Wedge","id":"p2791","attributes":{"x":{"type":"value","value":0},"y":{"type":"value","value":1},"radius":{"type":"value","value":0.4},"start_angle":{"type":"expr","expr":{"id":"p2781"}},"end_angle":{"type":"expr","expr":{"id":"p2782"}},"line_color":{"type":"value","value":"white"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"field","field":"color"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p2766","attributes":{"tools":[{"type":"object","name":"HoverTool","id":"p2780","attributes":{"renderers":"auto","tooltips":"@Indicator: @percentage{0.2f}%"}}]}},"toolbar_location":null,"left":[{"type":"object","name":"LinearAxis","id":"p2775","attributes":{"visible":false,"ticker":{"type":"object","name":"BasicTicker","id":"p2776","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p2777"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p2778"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p2770","attributes":{"visible":false,"ticker":{"type":"object","name":"BasicTicker","id":"p2771","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p2772"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p2773"}}}],"center":[{"type":"object","name":"Grid","id":"p2774","attributes":{"axis":{"id":"p2770"},"grid_line_color":null}},{"type":"object","name":"Grid","id":"p2779","attributes":{"dimension":1,"axis":{"id":"p2775"},"grid_line_color":null}},{"type":"object","name":"Legend","id":"p2795","attributes":{"items":[{"type":"object","name":"LegendItem","id":"p2796","attributes":{"label":{"type":"field","field":"Indicator"},"renderers":[{"id":"p2792"}]}}]}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('f15eef8d-b608-488b-af44-1cbfb5fb9c72').textContent;
+              const render_items = [{"docid":"f7d1e571-8174-46d4-bd14-c9c43eb78298","roots":{"p2757":"dd17dd95-6d4e-4d53-88ab-9613b083200f"},"root_ids":["p2757"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
