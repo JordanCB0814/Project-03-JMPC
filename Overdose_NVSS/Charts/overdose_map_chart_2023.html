@@ -1,0 +1,1522 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e295e443886aa9f38dcf3445eabe5b25 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e295e443886aa9f38dcf3445eabe5b25" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e295e443886aa9f38dcf3445eabe5b25 = L.map(
+                "map_e295e443886aa9f38dcf3445eabe5b25",
+                {
+                    center: [37.0902, -95.7129],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6978d09cd176b16898712d1771fe0559 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_6978d09cd176b16898712d1771fe0559.addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+            var marker_c4f782b3a1585cd3bad3b359127faa97 = L.marker(
+                [32.361538, -86.279118],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_6e536cd73e34135b765e7edf2842e98d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96848ec3813353858278359636bee426 = $(`<div id="html_96848ec3813353858278359636bee426" style="width: 100.0%; height: 100.0%;">Alabama - Overdose: 24325.0</div>`)[0];
+                popup_6e536cd73e34135b765e7edf2842e98d.setContent(html_96848ec3813353858278359636bee426);
+            
+        
+
+        marker_c4f782b3a1585cd3bad3b359127faa97.bindPopup(popup_6e536cd73e34135b765e7edf2842e98d)
+        ;
+
+        
+    
+    
+            marker_c4f782b3a1585cd3bad3b359127faa97.bindTooltip(
+                `<div>
+                     Alabama
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb0116de72081e5c05a7f378204b7aba = L.marker(
+                [58.301935, -134.41974],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_881dd17bbe89dc9e8bfa6e79c9b592da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a041b9e5211a01a4372c10735d4c89d2 = $(`<div id="html_a041b9e5211a01a4372c10735d4c89d2" style="width: 100.0%; height: 100.0%;">Alaska - Overdose: 4706.0</div>`)[0];
+                popup_881dd17bbe89dc9e8bfa6e79c9b592da.setContent(html_a041b9e5211a01a4372c10735d4c89d2);
+            
+        
+
+        marker_fb0116de72081e5c05a7f378204b7aba.bindPopup(popup_881dd17bbe89dc9e8bfa6e79c9b592da)
+        ;
+
+        
+    
+    
+            marker_fb0116de72081e5c05a7f378204b7aba.bindTooltip(
+                `<div>
+                     Alaska
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d3646e31631106703f731be7ba0b94f = L.marker(
+                [33.448457, -112.073844],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_339306304201f2246d034a05b27b92f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4c7fb61f3a3f52827f02f59cfa4bc6a = $(`<div id="html_b4c7fb61f3a3f52827f02f59cfa4bc6a" style="width: 100.0%; height: 100.0%;">Arizona - Overdose: 43747.0</div>`)[0];
+                popup_339306304201f2246d034a05b27b92f0.setContent(html_b4c7fb61f3a3f52827f02f59cfa4bc6a);
+            
+        
+
+        marker_1d3646e31631106703f731be7ba0b94f.bindPopup(popup_339306304201f2246d034a05b27b92f0)
+        ;
+
+        
+    
+    
+            marker_1d3646e31631106703f731be7ba0b94f.bindTooltip(
+                `<div>
+                     Arizona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_257b332dbc7979f64aca66965123b753 = L.marker(
+                [34.736009, -92.331122],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_6dcc25d9073e78a3906dd51295fb123b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_015db3f9e590d68720472eb8c00813d2 = $(`<div id="html_015db3f9e590d68720472eb8c00813d2" style="width: 100.0%; height: 100.0%;">Arkansas - Overdose: 7925.0</div>`)[0];
+                popup_6dcc25d9073e78a3906dd51295fb123b.setContent(html_015db3f9e590d68720472eb8c00813d2);
+            
+        
+
+        marker_257b332dbc7979f64aca66965123b753.bindPopup(popup_6dcc25d9073e78a3906dd51295fb123b)
+        ;
+
+        
+    
+    
+            marker_257b332dbc7979f64aca66965123b753.bindTooltip(
+                `<div>
+                     Arkansas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b1c597a477084708e961e2f0eb74e575 = L.marker(
+                [38.555605, -121.468926],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_64b5e0122ff2bcd0e97a7fdafa3131fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_696b3d4885fd386f7e1f2c10c996e859 = $(`<div id="html_696b3d4885fd386f7e1f2c10c996e859" style="width: 100.0%; height: 100.0%;">California - Overdose: 185476.0</div>`)[0];
+                popup_64b5e0122ff2bcd0e97a7fdafa3131fc.setContent(html_696b3d4885fd386f7e1f2c10c996e859);
+            
+        
+
+        marker_b1c597a477084708e961e2f0eb74e575.bindPopup(popup_64b5e0122ff2bcd0e97a7fdafa3131fc)
+        ;
+
+        
+    
+    
+            marker_b1c597a477084708e961e2f0eb74e575.bindTooltip(
+                `<div>
+                     California
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc515ab031d49d1c60e49d75231addbf = L.marker(
+                [39.7391667, -104.984167],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_4d717a7bf9926e9e8e4c9d2527ef43bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfa9efc8d5e53336e3b4232da84590f8 = $(`<div id="html_cfa9efc8d5e53336e3b4232da84590f8" style="width: 100.0%; height: 100.0%;">Colorado - Overdose: 27427.0</div>`)[0];
+                popup_4d717a7bf9926e9e8e4c9d2527ef43bf.setContent(html_cfa9efc8d5e53336e3b4232da84590f8);
+            
+        
+
+        marker_dc515ab031d49d1c60e49d75231addbf.bindPopup(popup_4d717a7bf9926e9e8e4c9d2527ef43bf)
+        ;
+
+        
+    
+    
+            marker_dc515ab031d49d1c60e49d75231addbf.bindTooltip(
+                `<div>
+                     Colorado
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65b6740a3d1ac678cfa97026791e0a56 = L.marker(
+                [41.767, -72.677],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_1149de058418bbb9a06f7b793c5fabf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c60f5d9151000b9cf8720f3c4e152ed = $(`<div id="html_5c60f5d9151000b9cf8720f3c4e152ed" style="width: 100.0%; height: 100.0%;">Connecticut - Overdose: 27266.0</div>`)[0];
+                popup_1149de058418bbb9a06f7b793c5fabf2.setContent(html_5c60f5d9151000b9cf8720f3c4e152ed);
+            
+        
+
+        marker_65b6740a3d1ac678cfa97026791e0a56.bindPopup(popup_1149de058418bbb9a06f7b793c5fabf2)
+        ;
+
+        
+    
+    
+            marker_65b6740a3d1ac678cfa97026791e0a56.bindTooltip(
+                `<div>
+                     Connecticut
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_add8fd123ed45a825094b49aef2919cb = L.marker(
+                [39.161921, -75.526755],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_907dc66213a2f8c37508a9babd84434c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3426f27a8078aedc12bc0e66102e87b8 = $(`<div id="html_3426f27a8078aedc12bc0e66102e87b8" style="width: 100.0%; height: 100.0%;">Delaware - Overdose: 10005.0</div>`)[0];
+                popup_907dc66213a2f8c37508a9babd84434c.setContent(html_3426f27a8078aedc12bc0e66102e87b8);
+            
+        
+
+        marker_add8fd123ed45a825094b49aef2919cb.bindPopup(popup_907dc66213a2f8c37508a9babd84434c)
+        ;
+
+        
+    
+    
+            marker_add8fd123ed45a825094b49aef2919cb.bindTooltip(
+                `<div>
+                     Delaware
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f1113705e6343e13120305de011615e1 = L.marker(
+                [30.4518, -84.27277],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_197a88ac8b0030dc0b7090c9360b9784 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c42f0028f5a6377d0aa20cbc105e514 = $(`<div id="html_3c42f0028f5a6377d0aa20cbc105e514" style="width: 100.0%; height: 100.0%;">Florida - Overdose: 123687.0</div>`)[0];
+                popup_197a88ac8b0030dc0b7090c9360b9784.setContent(html_3c42f0028f5a6377d0aa20cbc105e514);
+            
+        
+
+        marker_f1113705e6343e13120305de011615e1.bindPopup(popup_197a88ac8b0030dc0b7090c9360b9784)
+        ;
+
+        
+    
+    
+            marker_f1113705e6343e13120305de011615e1.bindTooltip(
+                `<div>
+                     Florida
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d738f076fc08d6dc290bfdfed0b49e5d = L.marker(
+                [33.76, -84.39],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_6f208f00609a120443db396510416d1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_727b43d04247ba20a7fe85e8ccf71b2e = $(`<div id="html_727b43d04247ba20a7fe85e8ccf71b2e" style="width: 100.0%; height: 100.0%;">Georgia - Overdose: 43096.0</div>`)[0];
+                popup_6f208f00609a120443db396510416d1a.setContent(html_727b43d04247ba20a7fe85e8ccf71b2e);
+            
+        
+
+        marker_d738f076fc08d6dc290bfdfed0b49e5d.bindPopup(popup_6f208f00609a120443db396510416d1a)
+        ;
+
+        
+    
+    
+            marker_d738f076fc08d6dc290bfdfed0b49e5d.bindTooltip(
+                `<div>
+                     Georgia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce6170dccc9cc55cfcdbe36b26fdc53f = L.marker(
+                [21.30895, -157.826182],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_47d055201730a42b2e067d34946acbaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6407fdf5f5786d323c21aae88791f588 = $(`<div id="html_6407fdf5f5786d323c21aae88791f588" style="width: 100.0%; height: 100.0%;">Hawaii - Overdose: 3204.0</div>`)[0];
+                popup_47d055201730a42b2e067d34946acbaa.setContent(html_6407fdf5f5786d323c21aae88791f588);
+            
+        
+
+        marker_ce6170dccc9cc55cfcdbe36b26fdc53f.bindPopup(popup_47d055201730a42b2e067d34946acbaa)
+        ;
+
+        
+    
+    
+            marker_ce6170dccc9cc55cfcdbe36b26fdc53f.bindTooltip(
+                `<div>
+                     Hawaii
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea30f8c24ed58991d5251253a5b6ada1 = L.marker(
+                [43.613739, -116.237651],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_c8272c91b8d4049f514fe2ef9bd1e985 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb069a8ccad23739e5075ceb0e0d2d37 = $(`<div id="html_fb069a8ccad23739e5075ceb0e0d2d37" style="width: 100.0%; height: 100.0%;">Idaho - Overdose: 5375.0</div>`)[0];
+                popup_c8272c91b8d4049f514fe2ef9bd1e985.setContent(html_fb069a8ccad23739e5075ceb0e0d2d37);
+            
+        
+
+        marker_ea30f8c24ed58991d5251253a5b6ada1.bindPopup(popup_c8272c91b8d4049f514fe2ef9bd1e985)
+        ;
+
+        
+    
+    
+            marker_ea30f8c24ed58991d5251253a5b6ada1.bindTooltip(
+                `<div>
+                     Idaho
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a867373cd1ad31e60dc60067f11f8f72 = L.marker(
+                [39.78325, -89.650373],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_e008e1796555cb6c6118b5a68b59f97f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6403520121b563483aed23bdb026f446 = $(`<div id="html_6403520121b563483aed23bdb026f446" style="width: 100.0%; height: 100.0%;">Illinois - Overdose: 66788.0</div>`)[0];
+                popup_e008e1796555cb6c6118b5a68b59f97f.setContent(html_6403520121b563483aed23bdb026f446);
+            
+        
+
+        marker_a867373cd1ad31e60dc60067f11f8f72.bindPopup(popup_e008e1796555cb6c6118b5a68b59f97f)
+        ;
+
+        
+    
+    
+            marker_a867373cd1ad31e60dc60067f11f8f72.bindTooltip(
+                `<div>
+                     Illinois
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cff2f9767ebcda7d91c706f199c08400 = L.marker(
+                [39.790942, -86.147685],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_5dba4a5948dcf6babbd5942320be68ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc0658818d064c6c9f1712e08e834bf9 = $(`<div id="html_bc0658818d064c6c9f1712e08e834bf9" style="width: 100.0%; height: 100.0%;">Indiana - Overdose: 41723.0</div>`)[0];
+                popup_5dba4a5948dcf6babbd5942320be68ab.setContent(html_bc0658818d064c6c9f1712e08e834bf9);
+            
+        
+
+        marker_cff2f9767ebcda7d91c706f199c08400.bindPopup(popup_5dba4a5948dcf6babbd5942320be68ab)
+        ;
+
+        
+    
+    
+            marker_cff2f9767ebcda7d91c706f199c08400.bindTooltip(
+                `<div>
+                     Indiana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_43bb223829774849d9e628dc138e0471 = L.marker(
+                [41.590939, -93.620866],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_30850affced777d37845fb4c25ffcc78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3cf5b12cff62e29558ca7b702fa4105b = $(`<div id="html_3cf5b12cff62e29558ca7b702fa4105b" style="width: 100.0%; height: 100.0%;">Iowa - Overdose: 5944.0</div>`)[0];
+                popup_30850affced777d37845fb4c25ffcc78.setContent(html_3cf5b12cff62e29558ca7b702fa4105b);
+            
+        
+
+        marker_43bb223829774849d9e628dc138e0471.bindPopup(popup_30850affced777d37845fb4c25ffcc78)
+        ;
+
+        
+    
+    
+            marker_43bb223829774849d9e628dc138e0471.bindTooltip(
+                `<div>
+                     Iowa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_32ccd552d5c862e5838fa722f74fef94 = L.marker(
+                [39.04, -95.69],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_b3bee26530e0bb4ec9ec58c800b016b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27a40adb4cb239ff8c91c852c02098ac = $(`<div id="html_27a40adb4cb239ff8c91c852c02098ac" style="width: 100.0%; height: 100.0%;">Kansas - Overdose: 11500.0</div>`)[0];
+                popup_b3bee26530e0bb4ec9ec58c800b016b8.setContent(html_27a40adb4cb239ff8c91c852c02098ac);
+            
+        
+
+        marker_32ccd552d5c862e5838fa722f74fef94.bindPopup(popup_b3bee26530e0bb4ec9ec58c800b016b8)
+        ;
+
+        
+    
+    
+            marker_32ccd552d5c862e5838fa722f74fef94.bindTooltip(
+                `<div>
+                     Kansas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_560ca401666ea5655e9e4fcf122c625e = L.marker(
+                [38.197274, -84.86311],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_c3fae9f16a121c2bac800b8ebaa9555e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2fe118e062c37b5888994dc7657af2dd = $(`<div id="html_2fe118e062c37b5888994dc7657af2dd" style="width: 100.0%; height: 100.0%;">Kentucky - Overdose: 38838.0</div>`)[0];
+                popup_c3fae9f16a121c2bac800b8ebaa9555e.setContent(html_2fe118e062c37b5888994dc7657af2dd);
+            
+        
+
+        marker_560ca401666ea5655e9e4fcf122c625e.bindPopup(popup_c3fae9f16a121c2bac800b8ebaa9555e)
+        ;
+
+        
+    
+    
+            marker_560ca401666ea5655e9e4fcf122c625e.bindTooltip(
+                `<div>
+                     Kentucky
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a5b5d34bab103110ff848b956361845 = L.marker(
+                [30.45809, -91.140229],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_46fabc96d06332155ef5a581cf842b9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_505215611acb72435381a83520d1e0b2 = $(`<div id="html_505215611acb72435381a83520d1e0b2" style="width: 100.0%; height: 100.0%;">Louisiana - Overdose: 9412.0</div>`)[0];
+                popup_46fabc96d06332155ef5a581cf842b9a.setContent(html_505215611acb72435381a83520d1e0b2);
+            
+        
+
+        marker_5a5b5d34bab103110ff848b956361845.bindPopup(popup_46fabc96d06332155ef5a581cf842b9a)
+        ;
+
+        
+    
+    
+            marker_5a5b5d34bab103110ff848b956361845.bindTooltip(
+                `<div>
+                     Louisiana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a71f6e9cd602cf4204c66235517193d = L.marker(
+                [44.323535, -69.765261],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_06fbefc660b3f7a7d156a78f848a5ebb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3e41402d06ff98b3c88c02a88206a10 = $(`<div id="html_e3e41402d06ff98b3c88c02a88206a10" style="width: 100.0%; height: 100.0%;">Maine - Overdose: 12972.0</div>`)[0];
+                popup_06fbefc660b3f7a7d156a78f848a5ebb.setContent(html_e3e41402d06ff98b3c88c02a88206a10);
+            
+        
+
+        marker_9a71f6e9cd602cf4204c66235517193d.bindPopup(popup_06fbefc660b3f7a7d156a78f848a5ebb)
+        ;
+
+        
+    
+    
+            marker_9a71f6e9cd602cf4204c66235517193d.bindTooltip(
+                `<div>
+                     Maine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a31e031fd1c6636d39c4495e1836f7a = L.marker(
+                [38.972945, -76.501157],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_4aa76887ce7d9e5f37283453f0e510b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbbf3634950e8e9440d0155f4c57b62d = $(`<div id="html_dbbf3634950e8e9440d0155f4c57b62d" style="width: 100.0%; height: 100.0%;">Maryland - Overdose: 43208.0</div>`)[0];
+                popup_4aa76887ce7d9e5f37283453f0e510b7.setContent(html_dbbf3634950e8e9440d0155f4c57b62d);
+            
+        
+
+        marker_8a31e031fd1c6636d39c4495e1836f7a.bindPopup(popup_4aa76887ce7d9e5f37283453f0e510b7)
+        ;
+
+        
+    
+    
+            marker_8a31e031fd1c6636d39c4495e1836f7a.bindTooltip(
+                `<div>
+                     Maryland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d04def494a77366473336a4157556a3f = L.marker(
+                [42.2352, -71.0275],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_df86d75e889a8bc23f7df4bcfa1478ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfe5f629bd45e15ef0747450fe047e82 = $(`<div id="html_bfe5f629bd45e15ef0747450fe047e82" style="width: 100.0%; height: 100.0%;">Massachusetts - Overdose: 47228.0</div>`)[0];
+                popup_df86d75e889a8bc23f7df4bcfa1478ff.setContent(html_bfe5f629bd45e15ef0747450fe047e82);
+            
+        
+
+        marker_d04def494a77366473336a4157556a3f.bindPopup(popup_df86d75e889a8bc23f7df4bcfa1478ff)
+        ;
+
+        
+    
+    
+            marker_d04def494a77366473336a4157556a3f.bindTooltip(
+                `<div>
+                     Massachusetts
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b55c771439b67666ccca0743b6b3dec7 = L.marker(
+                [42.7335, -84.5467],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_b8fa14a6716cbb3054d97bcc56209720 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3dc1e7156aa7ce152ebf0730168eadac = $(`<div id="html_3dc1e7156aa7ce152ebf0730168eadac" style="width: 100.0%; height: 100.0%;">Michigan - Overdose: 50612.0</div>`)[0];
+                popup_b8fa14a6716cbb3054d97bcc56209720.setContent(html_3dc1e7156aa7ce152ebf0730168eadac);
+            
+        
+
+        marker_b55c771439b67666ccca0743b6b3dec7.bindPopup(popup_b8fa14a6716cbb3054d97bcc56209720)
+        ;
+
+        
+    
+    
+            marker_b55c771439b67666ccca0743b6b3dec7.bindTooltip(
+                `<div>
+                     Michigan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a6aca8a5995e2c0a3d3197698a2701b = L.marker(
+                [44.95, -93.094],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_d4447e5ea3d54f9fc402713d24cc546f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0703e48c3dc9de4f5b72404c78c390e6 = $(`<div id="html_0703e48c3dc9de4f5b72404c78c390e6" style="width: 100.0%; height: 100.0%;">Minnesota - Overdose: 22344.0</div>`)[0];
+                popup_d4447e5ea3d54f9fc402713d24cc546f.setContent(html_0703e48c3dc9de4f5b72404c78c390e6);
+            
+        
+
+        marker_4a6aca8a5995e2c0a3d3197698a2701b.bindPopup(popup_d4447e5ea3d54f9fc402713d24cc546f)
+        ;
+
+        
+    
+    
+            marker_4a6aca8a5995e2c0a3d3197698a2701b.bindTooltip(
+                `<div>
+                     Minnesota
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_19464c0b117013d3d41d303677d58970 = L.marker(
+                [32.32, -90.207],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_362b1a759dc52c869ddbf9b53e6147c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca4e9534a7588a572b1b407c9fdd8e3a = $(`<div id="html_ca4e9534a7588a572b1b407c9fdd8e3a" style="width: 100.0%; height: 100.0%;">Mississippi - Overdose: 10553.0</div>`)[0];
+                popup_362b1a759dc52c869ddbf9b53e6147c1.setContent(html_ca4e9534a7588a572b1b407c9fdd8e3a);
+            
+        
+
+        marker_19464c0b117013d3d41d303677d58970.bindPopup(popup_362b1a759dc52c869ddbf9b53e6147c1)
+        ;
+
+        
+    
+    
+            marker_19464c0b117013d3d41d303677d58970.bindTooltip(
+                `<div>
+                     Mississippi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_edd858b3f448d726c9112663d79f32ee = L.marker(
+                [38.572954, -92.189283],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_979071e09d54eea23f997c691c0db789 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65fcb28ee11c92e388e8b78d9a6a15b0 = $(`<div id="html_65fcb28ee11c92e388e8b78d9a6a15b0" style="width: 100.0%; height: 100.0%;">Missouri - Overdose: 34043.0</div>`)[0];
+                popup_979071e09d54eea23f997c691c0db789.setContent(html_65fcb28ee11c92e388e8b78d9a6a15b0);
+            
+        
+
+        marker_edd858b3f448d726c9112663d79f32ee.bindPopup(popup_979071e09d54eea23f997c691c0db789)
+        ;
+
+        
+    
+    
+            marker_edd858b3f448d726c9112663d79f32ee.bindTooltip(
+                `<div>
+                     Missouri
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b7fa18d82f038a9f2d09fc93b19a452 = L.marker(
+                [46.595805, -112.027031],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_0e7aceb1af7034413d9ca932e4a280e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95649ebfdafbb1face84a474189a1fcb = $(`<div id="html_95649ebfdafbb1face84a474189a1fcb" style="width: 100.0%; height: 100.0%;">Montana - Overdose: 2585.0</div>`)[0];
+                popup_0e7aceb1af7034413d9ca932e4a280e2.setContent(html_95649ebfdafbb1face84a474189a1fcb);
+            
+        
+
+        marker_0b7fa18d82f038a9f2d09fc93b19a452.bindPopup(popup_0e7aceb1af7034413d9ca932e4a280e2)
+        ;
+
+        
+    
+    
+            marker_0b7fa18d82f038a9f2d09fc93b19a452.bindTooltip(
+                `<div>
+                     Montana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c796272af9bbf5d00dcdc90135a4510 = L.marker(
+                [40.809868, -96.675345],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_aef4e016004500218c47c29449778fdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f527d588b9897c8b201d37823cc96bb2 = $(`<div id="html_f527d588b9897c8b201d37823cc96bb2" style="width: 100.0%; height: 100.0%;">Nebraska - Overdose: 889.0</div>`)[0];
+                popup_aef4e016004500218c47c29449778fdd.setContent(html_f527d588b9897c8b201d37823cc96bb2);
+            
+        
+
+        marker_6c796272af9bbf5d00dcdc90135a4510.bindPopup(popup_aef4e016004500218c47c29449778fdd)
+        ;
+
+        
+    
+    
+            marker_6c796272af9bbf5d00dcdc90135a4510.bindTooltip(
+                `<div>
+                     Nebraska
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e7d09fe5d9de77438f2204a71fe1462 = L.marker(
+                [39.160949, -119.753877],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_6e9caa04836a73c6e2a4ee3e84f02152 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ca78c93f76c5cbea25cbd8970987588 = $(`<div id="html_8ca78c93f76c5cbea25cbd8970987588" style="width: 100.0%; height: 100.0%;">Nevada - Overdose: 17696.0</div>`)[0];
+                popup_6e9caa04836a73c6e2a4ee3e84f02152.setContent(html_8ca78c93f76c5cbea25cbd8970987588);
+            
+        
+
+        marker_2e7d09fe5d9de77438f2204a71fe1462.bindPopup(popup_6e9caa04836a73c6e2a4ee3e84f02152)
+        ;
+
+        
+    
+    
+            marker_2e7d09fe5d9de77438f2204a71fe1462.bindTooltip(
+                `<div>
+                     Nevada
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6523c350ac35ae2381bad4dd6d5bd87 = L.marker(
+                [43.220093, -71.549127],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_82ca2f06573edfef53f252cd0ea99ac4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b24d5a7b0decfddf99a322552d8e4c94 = $(`<div id="html_b24d5a7b0decfddf99a322552d8e4c94" style="width: 100.0%; height: 100.0%;">New Hampshire - Overdose: 7811.0</div>`)[0];
+                popup_82ca2f06573edfef53f252cd0ea99ac4.setContent(html_b24d5a7b0decfddf99a322552d8e4c94);
+            
+        
+
+        marker_d6523c350ac35ae2381bad4dd6d5bd87.bindPopup(popup_82ca2f06573edfef53f252cd0ea99ac4)
+        ;
+
+        
+    
+    
+            marker_d6523c350ac35ae2381bad4dd6d5bd87.bindTooltip(
+                `<div>
+                     New Hampshire
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_037e214ec63f23a2afda0044b312b12d = L.marker(
+                [40.221741, -74.756138],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_4cfd5acd4ab0afb3addf6298356345fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9da3b65b2394655237919c6fbfb9b2f = $(`<div id="html_b9da3b65b2394655237919c6fbfb9b2f" style="width: 100.0%; height: 100.0%;">New Jersey - Overdose: 50889.0</div>`)[0];
+                popup_4cfd5acd4ab0afb3addf6298356345fc.setContent(html_b9da3b65b2394655237919c6fbfb9b2f);
+            
+        
+
+        marker_037e214ec63f23a2afda0044b312b12d.bindPopup(popup_4cfd5acd4ab0afb3addf6298356345fc)
+        ;
+
+        
+    
+    
+            marker_037e214ec63f23a2afda0044b312b12d.bindTooltip(
+                `<div>
+                     New Jersey
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2538e4585b03c04839f9b3ed4d1227f1 = L.marker(
+                [35.667231, -105.964575],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_9bef19237de9463337be09217aee4e3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ad14392365d4f457d32748fd15fa543 = $(`<div id="html_3ad14392365d4f457d32748fd15fa543" style="width: 100.0%; height: 100.0%;">New Mexico - Overdose: 15787.0</div>`)[0];
+                popup_9bef19237de9463337be09217aee4e3e.setContent(html_3ad14392365d4f457d32748fd15fa543);
+            
+        
+
+        marker_2538e4585b03c04839f9b3ed4d1227f1.bindPopup(popup_9bef19237de9463337be09217aee4e3e)
+        ;
+
+        
+    
+    
+            marker_2538e4585b03c04839f9b3ed4d1227f1.bindTooltip(
+                `<div>
+                     New Mexico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b8c29a99db1f3cf786b83e1f05d1239f = L.marker(
+                [42.659829, -73.781339],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_c2dd62d5af0ea92f2eb22cfa84bfb41c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07b8f361edd128542c4c3344cef005e7 = $(`<div id="html_07b8f361edd128542c4c3344cef005e7" style="width: 100.0%; height: 100.0%;">New York - Overdose: 61504.0</div>`)[0];
+                popup_c2dd62d5af0ea92f2eb22cfa84bfb41c.setContent(html_07b8f361edd128542c4c3344cef005e7);
+            
+        
+
+        marker_b8c29a99db1f3cf786b83e1f05d1239f.bindPopup(popup_c2dd62d5af0ea92f2eb22cfa84bfb41c)
+        ;
+
+        
+    
+    
+            marker_b8c29a99db1f3cf786b83e1f05d1239f.bindTooltip(
+                `<div>
+                     New York
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3fffe9bad9bb5c0a600c1c820676a3a6 = L.marker(
+                [35.771, -78.638],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_d2508182149167a0a43f469921eeefd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a405641cbe26816b931abc010f87dc1f = $(`<div id="html_a405641cbe26816b931abc010f87dc1f" style="width: 100.0%; height: 100.0%;">North Carolina - Overdose: 76024.0</div>`)[0];
+                popup_d2508182149167a0a43f469921eeefd8.setContent(html_a405641cbe26816b931abc010f87dc1f);
+            
+        
+
+        marker_3fffe9bad9bb5c0a600c1c820676a3a6.bindPopup(popup_d2508182149167a0a43f469921eeefd8)
+        ;
+
+        
+    
+    
+            marker_3fffe9bad9bb5c0a600c1c820676a3a6.bindTooltip(
+                `<div>
+                     North Carolina
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d3f165570e6eb4088461a232f0d6dba = L.marker(
+                [48.813343, -100.779004],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_0e612e88532d6b25ba0319782c690529 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62ab9eedbc945306f0faa8c44797fd60 = $(`<div id="html_62ab9eedbc945306f0faa8c44797fd60" style="width: 100.0%; height: 100.0%;">North Dakota - Overdose: 1249.0</div>`)[0];
+                popup_0e612e88532d6b25ba0319782c690529.setContent(html_62ab9eedbc945306f0faa8c44797fd60);
+            
+        
+
+        marker_0d3f165570e6eb4088461a232f0d6dba.bindPopup(popup_0e612e88532d6b25ba0319782c690529)
+        ;
+
+        
+    
+    
+            marker_0d3f165570e6eb4088461a232f0d6dba.bindTooltip(
+                `<div>
+                     North Dakota
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1cca8a49a59978709f85cae77dc9b40c = L.marker(
+                [39.962245, -83.000647],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_c19d6f5515c06a30657c7364416d6d68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3592a39d622799f1166135392faac4f7 = $(`<div id="html_3592a39d622799f1166135392faac4f7" style="width: 100.0%; height: 100.0%;">Ohio - Overdose: 87534.0</div>`)[0];
+                popup_c19d6f5515c06a30657c7364416d6d68.setContent(html_3592a39d622799f1166135392faac4f7);
+            
+        
+
+        marker_1cca8a49a59978709f85cae77dc9b40c.bindPopup(popup_c19d6f5515c06a30657c7364416d6d68)
+        ;
+
+        
+    
+    
+            marker_1cca8a49a59978709f85cae77dc9b40c.bindTooltip(
+                `<div>
+                     Ohio
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00a45690c15e068361f0c4ea62002dcd = L.marker(
+                [35.482309, -97.534994],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_0220311f1c20d0b9c3a62447c2f31b16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9306568420dddea5bdb6d6a8fb5fba1e = $(`<div id="html_9306568420dddea5bdb6d6a8fb5fba1e" style="width: 100.0%; height: 100.0%;">Oklahoma - Overdose: 17945.0</div>`)[0];
+                popup_0220311f1c20d0b9c3a62447c2f31b16.setContent(html_9306568420dddea5bdb6d6a8fb5fba1e);
+            
+        
+
+        marker_00a45690c15e068361f0c4ea62002dcd.bindPopup(popup_0220311f1c20d0b9c3a62447c2f31b16)
+        ;
+
+        
+    
+    
+            marker_00a45690c15e068361f0c4ea62002dcd.bindTooltip(
+                `<div>
+                     Oklahoma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b067698df322f5e2477b09c57a0349af = L.marker(
+                [44.931109, -123.029159],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_38399fea5eb9567817c736840198dd92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6042ea42a2c8635bed23e4e9302b6975 = $(`<div id="html_6042ea42a2c8635bed23e4e9302b6975" style="width: 100.0%; height: 100.0%;">Oregon - Overdose: 23940.0</div>`)[0];
+                popup_38399fea5eb9567817c736840198dd92.setContent(html_6042ea42a2c8635bed23e4e9302b6975);
+            
+        
+
+        marker_b067698df322f5e2477b09c57a0349af.bindPopup(popup_38399fea5eb9567817c736840198dd92)
+        ;
+
+        
+    
+    
+            marker_b067698df322f5e2477b09c57a0349af.bindTooltip(
+                `<div>
+                     Oregon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a2e7fbdbb0d99dc9379a3b92a11ffd00 = L.marker(
+                [40.269789, -76.875613],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_bba6c120225125ce9d8cec25fd52fc5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_945199e0e1d752a5a02c80b30ae32c0a = $(`<div id="html_945199e0e1d752a5a02c80b30ae32c0a" style="width: 100.0%; height: 100.0%;">Pennsylvania - Overdose: 20926.0</div>`)[0];
+                popup_bba6c120225125ce9d8cec25fd52fc5d.setContent(html_945199e0e1d752a5a02c80b30ae32c0a);
+            
+        
+
+        marker_a2e7fbdbb0d99dc9379a3b92a11ffd00.bindPopup(popup_bba6c120225125ce9d8cec25fd52fc5d)
+        ;
+
+        
+    
+    
+            marker_a2e7fbdbb0d99dc9379a3b92a11ffd00.bindTooltip(
+                `<div>
+                     Pennsylvania
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0637cb24e2befa0ba6e8b1224492e0e3 = L.marker(
+                [41.82355, -71.422132],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_981dfbeece7198e6979e4fc6814e2d9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd0ee1f6c65bf0bd6b16d517afb2e234 = $(`<div id="html_bd0ee1f6c65bf0bd6b16d517afb2e234" style="width: 100.0%; height: 100.0%;">Rhode Island - Overdose: 7625.0</div>`)[0];
+                popup_981dfbeece7198e6979e4fc6814e2d9b.setContent(html_bd0ee1f6c65bf0bd6b16d517afb2e234);
+            
+        
+
+        marker_0637cb24e2befa0ba6e8b1224492e0e3.bindPopup(popup_981dfbeece7198e6979e4fc6814e2d9b)
+        ;
+
+        
+    
+    
+            marker_0637cb24e2befa0ba6e8b1224492e0e3.bindTooltip(
+                `<div>
+                     Rhode Island
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_950cea4a9786f06250d1160b85d7e2a1 = L.marker(
+                [34.0, -81.035],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_f9748bc6e52d91f4ae72ef84b6092ad6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a76ec59fd6b832190d4d8b5bfcd94c5 = $(`<div id="html_8a76ec59fd6b832190d4d8b5bfcd94c5" style="width: 100.0%; height: 100.0%;">South Carolina - Overdose: 39334.0</div>`)[0];
+                popup_f9748bc6e52d91f4ae72ef84b6092ad6.setContent(html_8a76ec59fd6b832190d4d8b5bfcd94c5);
+            
+        
+
+        marker_950cea4a9786f06250d1160b85d7e2a1.bindPopup(popup_f9748bc6e52d91f4ae72ef84b6092ad6)
+        ;
+
+        
+    
+    
+            marker_950cea4a9786f06250d1160b85d7e2a1.bindTooltip(
+                `<div>
+                     South Carolina
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8bc4df723b90f7db3e5e4e73f2b9bf8f = L.marker(
+                [44.367966, -100.336378],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_b46b59fae8caf82fab380399d7d26bf4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8dc23c66dd54fc0997abb967ac034074 = $(`<div id="html_8dc23c66dd54fc0997abb967ac034074" style="width: 100.0%; height: 100.0%;">South Dakota - Overdose: 908.0</div>`)[0];
+                popup_b46b59fae8caf82fab380399d7d26bf4.setContent(html_8dc23c66dd54fc0997abb967ac034074);
+            
+        
+
+        marker_8bc4df723b90f7db3e5e4e73f2b9bf8f.bindPopup(popup_b46b59fae8caf82fab380399d7d26bf4)
+        ;
+
+        
+    
+    
+            marker_8bc4df723b90f7db3e5e4e73f2b9bf8f.bindTooltip(
+                `<div>
+                     South Dakota
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5fb53ceac215af432412aefe8479987d = L.marker(
+                [36.165, -86.784],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_26d26c8e3acc0608255190a5167e8a24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10b362f6f3f313614cf8311586067657 = $(`<div id="html_10b362f6f3f313614cf8311586067657" style="width: 100.0%; height: 100.0%;">Tennessee - Overdose: 65659.0</div>`)[0];
+                popup_26d26c8e3acc0608255190a5167e8a24.setContent(html_10b362f6f3f313614cf8311586067657);
+            
+        
+
+        marker_5fb53ceac215af432412aefe8479987d.bindPopup(popup_26d26c8e3acc0608255190a5167e8a24)
+        ;
+
+        
+    
+    
+            marker_5fb53ceac215af432412aefe8479987d.bindTooltip(
+                `<div>
+                     Tennessee
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e3ca4000fb340a541469ed2b3d42d98 = L.marker(
+                [30.266667, -97.75],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_90b185aeead8ed0dd17de8b6b2efcbc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_223f5133de56c7398449ba89c67bbbfb = $(`<div id="html_223f5133de56c7398449ba89c67bbbfb" style="width: 100.0%; height: 100.0%;">Texas - Overdose: 79899.0</div>`)[0];
+                popup_90b185aeead8ed0dd17de8b6b2efcbc0.setContent(html_223f5133de56c7398449ba89c67bbbfb);
+            
+        
+
+        marker_9e3ca4000fb340a541469ed2b3d42d98.bindPopup(popup_90b185aeead8ed0dd17de8b6b2efcbc0)
+        ;
+
+        
+    
+    
+            marker_9e3ca4000fb340a541469ed2b3d42d98.bindTooltip(
+                `<div>
+                     Texas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a19d64d6a0dfde6a4a6a5efb8e00b1e = L.marker(
+                [40.7547, -111.892622],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_fb71149319894e4114ef8b505a31d81b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fab7a91696034c1ee8dda967c54d485d = $(`<div id="html_fab7a91696034c1ee8dda967c54d485d" style="width: 100.0%; height: 100.0%;">Utah - Overdose: 10300.0</div>`)[0];
+                popup_fb71149319894e4114ef8b505a31d81b.setContent(html_fab7a91696034c1ee8dda967c54d485d);
+            
+        
+
+        marker_3a19d64d6a0dfde6a4a6a5efb8e00b1e.bindPopup(popup_fb71149319894e4114ef8b505a31d81b)
+        ;
+
+        
+    
+    
+            marker_3a19d64d6a0dfde6a4a6a5efb8e00b1e.bindTooltip(
+                `<div>
+                     Utah
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5fbc675d263ad50367b2546aba99004d = L.marker(
+                [44.26639, -72.57194],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_29131a15793e3f1f351d39481ee2b35c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82d1b40669595e40ede9c6ced8483179 = $(`<div id="html_82d1b40669595e40ede9c6ced8483179" style="width: 100.0%; height: 100.0%;">Vermont - Overdose: 4824.0</div>`)[0];
+                popup_29131a15793e3f1f351d39481ee2b35c.setContent(html_82d1b40669595e40ede9c6ced8483179);
+            
+        
+
+        marker_5fbc675d263ad50367b2546aba99004d.bindPopup(popup_29131a15793e3f1f351d39481ee2b35c)
+        ;
+
+        
+    
+    
+            marker_5fbc675d263ad50367b2546aba99004d.bindTooltip(
+                `<div>
+                     Vermont
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e6449a883705bbdf83c9b2a01fd3955 = L.marker(
+                [37.54, -77.46],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_19ff8b95cd43a04df2b3f8297149eef4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ceafb2cb6651d730d042fd0592690000 = $(`<div id="html_ceafb2cb6651d730d042fd0592690000" style="width: 100.0%; height: 100.0%;">Virginia - Overdose: 44499.0</div>`)[0];
+                popup_19ff8b95cd43a04df2b3f8297149eef4.setContent(html_ceafb2cb6651d730d042fd0592690000);
+            
+        
+
+        marker_5e6449a883705bbdf83c9b2a01fd3955.bindPopup(popup_19ff8b95cd43a04df2b3f8297149eef4)
+        ;
+
+        
+    
+    
+            marker_5e6449a883705bbdf83c9b2a01fd3955.bindTooltip(
+                `<div>
+                     Virginia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cbfe61db264accdfa38c7896f39ce49c = L.marker(
+                [47.042418, -122.893077],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_5d456c9f8a631d64026cb135e468201c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23853caa0cbab24ad84c22877e2891a7 = $(`<div id="html_23853caa0cbab24ad84c22877e2891a7" style="width: 100.0%; height: 100.0%;">Washington - Overdose: 49697.0</div>`)[0];
+                popup_5d456c9f8a631d64026cb135e468201c.setContent(html_23853caa0cbab24ad84c22877e2891a7);
+            
+        
+
+        marker_cbfe61db264accdfa38c7896f39ce49c.bindPopup(popup_5d456c9f8a631d64026cb135e468201c)
+        ;
+
+        
+    
+    
+            marker_cbfe61db264accdfa38c7896f39ce49c.bindTooltip(
+                `<div>
+                     Washington
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_660bd317336d77faefafabdbb5649fdd = L.marker(
+                [38.349497, -81.633294],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_ee00e47dbe3fdafbaf0ca5d1e888af92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a49faf8778fa87382a9a06dadfe34e6 = $(`<div id="html_4a49faf8778fa87382a9a06dadfe34e6" style="width: 100.0%; height: 100.0%;">West Virginia - Overdose: 24130.0</div>`)[0];
+                popup_ee00e47dbe3fdafbaf0ca5d1e888af92.setContent(html_4a49faf8778fa87382a9a06dadfe34e6);
+            
+        
+
+        marker_660bd317336d77faefafabdbb5649fdd.bindPopup(popup_ee00e47dbe3fdafbaf0ca5d1e888af92)
+        ;
+
+        
+    
+    
+            marker_660bd317336d77faefafabdbb5649fdd.bindTooltip(
+                `<div>
+                     West Virginia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b1b80da240b72c6203bc3448642448e = L.marker(
+                [43.074722, -89.384444],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_fe67583ae27721e14f6e6f41d65db831 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_913f36b77d924d945d3859a1133565a3 = $(`<div id="html_913f36b77d924d945d3859a1133565a3" style="width: 100.0%; height: 100.0%;">Wisconsin - Overdose: 30086.0</div>`)[0];
+                popup_fe67583ae27721e14f6e6f41d65db831.setContent(html_913f36b77d924d945d3859a1133565a3);
+            
+        
+
+        marker_8b1b80da240b72c6203bc3448642448e.bindPopup(popup_fe67583ae27721e14f6e6f41d65db831)
+        ;
+
+        
+    
+    
+            marker_8b1b80da240b72c6203bc3448642448e.bindTooltip(
+                `<div>
+                     Wisconsin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a41412eeca7da160bea15dbfdfda0287 = L.marker(
+                [41.145548, -104.802042],
+                {}
+            ).addTo(map_e295e443886aa9f38dcf3445eabe5b25);
+        
+    
+        var popup_9e676b456c1f470ea2780e1bb82fc646 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19959d1c118f76e057d2bba70bec1a53 = $(`<div id="html_19959d1c118f76e057d2bba70bec1a53" style="width: 100.0%; height: 100.0%;">Wyoming - Overdose: 1794.0</div>`)[0];
+                popup_9e676b456c1f470ea2780e1bb82fc646.setContent(html_19959d1c118f76e057d2bba70bec1a53);
+            
+        
+
+        marker_a41412eeca7da160bea15dbfdfda0287.bindPopup(popup_9e676b456c1f470ea2780e1bb82fc646)
+        ;
+
+        
+    
+    
+            marker_a41412eeca7da160bea15dbfdfda0287.bindTooltip(
+                `<div>
+                     Wyoming
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
