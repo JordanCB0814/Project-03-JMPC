@@ -2,7 +2,7 @@
 
 **Overview**
 
-In this Project we created 3 interactive Data Visualizations of a DataBase with over 5,000 rows of data. We used MongoDB, Pandas, Matplotlib, and Bokeh for creating our Visualizations. Once created we made a Website in order to easily show our visualizations along with giving the ability to have more user interactiveness.
+In this project we create 3 interactive Data Visualizations of a Data Frame with over 5,000 rows of data. We used Pandas, Matplotlib, and Bokeh for creating our Visualizations. Once created we made a website dashboard in order to easily show our visualizations along with giving the ability to have more user interaction.
 
 The CDC was the source of our DataBase, having done a analysis of the topic of Drug Overdose Deaths in the US. We referred to their results in order to see if there are any inconsistencies within our results.
 
